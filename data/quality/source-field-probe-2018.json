@@ -1,0 +1,69 @@
+{
+  "start": "20180101",
+  "end": "20260610",
+  "symbols": [
+    {
+      "symbol": "600519",
+      "market": "A",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "300750",
+      "market": "A",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "000001",
+      "market": "A",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "688981",
+      "market": "A",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "601919",
+      "market": "A",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "HK:00700",
+      "market": "HK",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "HK:09888",
+      "market": "HK",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "HK:03690",
+      "market": "HK",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "HK:09988",
+      "market": "HK",
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "symbol": "HK:01810",
+      "market": "HK",
+      "error": "Remote end closed connection without response"
+    }
+  ],
+  "summary": {
+    "A": {
+      "tested": 0,
+      "amountUsable": 0,
+      "turnoverUsable": 0
+    },
+    "HK": {
+      "tested": 0,
+      "amountUsable": 0,
+      "turnoverUsable": 0
+    }
+  },
+  "conclusion": []
+}

@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>形位变股票结构观察器</title>
+  <style>
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background: #10151f !important;
+    color: #e8f4ff;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  #app,
+  .app-shell,
+  .page,
+  .container,
+  .main-grid {
+    min-height: 100%;
+    background: #10151f !important;
+  }
+</style>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div>
+        <h1>形位变股票结构观察器</h1>
+        <p>观其形 · 知其位 · 察其变 · 最终决策</p>
+        <div class="hud-status-row" aria-label="系统状态">
+          <span>STRUCTURE OBSERVATION</span>
+          <span>MARKET DAILY</span>
+          <span>NO LIVE TRADING</span>
+          <span>HISTORY ONLY</span>
+        </div>
+      </div>
+      <div class="risk-note">历史结构统计，不代表未来收益</div>
+    </header>
+
+    <main class="main-grid">
+      <section class="panel input-panel">
+        <h2>观察输入</h2>
+
+        <form id="backtestForm" novalidate>
+          <label>
+            股票代码
+            <input id="symbolInput" value="600519" maxlength="16" placeholder="例如 600519 / HK:00700 / 09866.HK" />
+          </label>
+
+          <div class="row">
+            <label>
+              开始日期
+              <input id="startDateInput" value="20180101" placeholder="YYYYMMDD" />
+            </label>
+
+            <label>
+              结束日期
+              <input id="endDateInput" value="" placeholder="留空=今天" />
+            </label>
+          </div>
+
+          <div class="param-section">
+            <div class="params-header">
+              <h3>回测参数：<span id="paramsPresetName">标准参数</span></h3>
+              <button id="paramsToggle" class="params-toggle" type="button" aria-expanded="false" hidden>展开高级参数</button>
+            </div>
+
+            <div id="advancedParams" class="advanced-params" hidden>
+              <div class="preset-row">
+                <button type="button" data-preset="standard">标准参数</button>
+                <button type="button" data-preset="conservative">保守参数</button>
+                <button type="button" data-preset="aggressive">激进参数</button>
+                <button id="resetParamsButton" type="button">恢复默认参数</button>
+              </div>
+
+              <label>
+                初始资金
+                <input id="initialCapitalInput" type="number" min="0" step="any" value="100000" />
+              </label>
+
+              <div class="row">
+                <label>
+                  佣金率
+                  <input id="commissionRateInput" type="number" min="0" step="any" value="0.00025" />
+                </label>
+
+                <label>
+                  最低佣金
+                  <input id="minCommissionInput" type="number" min="0" step="any" value="5" />
+                </label>
+              </div>
+
+              <div class="row">
+                <label>
+                  印花税
+                  <input id="stampTaxRateInput" type="number" min="0" step="any" value="0.0005" />
+                </label>
+
+                <label>
+                  过户费
+                  <input id="transferFeeRateInput" type="number" min="0" step="any" value="0.00001" />
+                </label>
+       
+              </div>
+
+              <div class="row">
+                <label>
+                  滑点
+                  <input id="slippageRateInput" type="number" min="0" max="0.9999" step="any" value="0.0005" />
+                </label>
+
+                <label>
+                  止损比例
+                  <input id="stopLossPctInput" type="number" min="0" max="0.9999" step="any" value="0.08" />
+                </label>
+              </div>
+
+              <div class="row">
+                <label>
+                  形/位阶段参考持仓天数
+                  <input id="holdDaysABInput" type="number" min="1" step="any" value="10" />
+                </label>
+
+                <label>
+                  最终决策持仓天数
+                  <input id="holdDaysCInput" type="number" min="1" step="any" value="20" />
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <label class="checkbox-line" hidden>
+            <input id="refreshInput" type="checkbox" />
+            强制重新拉取数据
+          </label>
+
+          <button id="runButton" type="submit">开始结构观察</button>
+        </form>
+
+        <section class="sync-section" aria-label="数据同步">
+          <h3>数据同步 / 全市场数据</h3>
+
+          <label>
+            同步范围
+            <select id="syncModeSelect">
+              <option value="current">当前股票</option>
+              <option value="symbols">指定股票</option>
+              <option value="SH">沪市 SH</option>
+              <option value="SZ">深市 SZ</option>
+              <option value="BJ">北交所 BJ</option>
+              <option value="full">全 A</option>
+              <option value="HK_FULL">港股 HK</option>
+            </select>
+          </label>
+
+          <label id="syncSymbolsLabel">
+            指定股票
+            <input id="syncSymbolsInput" placeholder="300750,600519,002594" />
+          </label>
+
+          <div class="row">
+            <label>
+              起始日期
+              <input id="syncStartDateInput" value="20180101" placeholder="YYYYMMDD" />
+            </label>
+
+            <label>
+              数量上限
+              <input id="syncMaxCountInput" type="number" min="0" step="1" value="0" />
+            </label>
+          </div>
+
+          <div class="row">
+            <label>
+              每只间隔 ms
+              <input id="syncThrottleMsInput" type="number" min="0" step="100" value="800" />
+            </label>
+
+            <label>
+              每批数量
+              <input id="syncBatchSizeInput" type="number" min="1" step="1" value="20" />
+            </label>
+          </div>
+
+          <div class="row">
+            <label>
+              每批暂停 ms
+              <input id="syncBatchPauseMsInput" type="number" min="0" step="100" value="300" />
+            </label>
+
+            <label>
+              失败暂停 ms
+              <input id="syncFailPauseMsInput" type="number" min="0" step="100" value="300" />
+            </label>
+          </div>
+
+          <label>
+            并发数
+            <input id="syncConcurrencyInput" type="number" min="1" max="3" step="1" value="1" />
+          </label>
+
+          <label class="checkbox-line" hidden>
+            <input id="syncForceInput" type="checkbox" />
+            强制重拉
+          </label>
+
+          <label class="checkbox-line">
+            <input id="syncRetryFailedInput" type="checkbox" checked />
+            重试失败项
+          </label>
+
+<div class="sync-button-row">
+  <button id="syncRefreshUniverseButton" type="button">刷新股票池</button>
+  <button id="syncStartButton" type="button">开始同步</button>
+  <button id="syncStopButton" type="button">停止同步</button>
+  <button id="syncStatusButton" type="button">查看状态</button>
+  <button id="syncImportDataPackButton" type="button">导入数据包</button>
+</div>
+
+          <div class="sync-progress-box">
+            <div class="sync-progress-grid">
+              <div><span>总数</span><b id="syncTotalText">0</b></div>
+              <div><span>已完成</span><b id="syncDoneText">0</b></div>
+              <div><span>跳过</span><b id="syncSkippedText">0</b></div>
+              <div><span>无日线</span><b id="syncNoDailyBarsText">0</b></div>
+              <div><span>失败</span><b id="syncFailedText">0</b></div>
+              <div><span>活跃并发</span><b id="syncActiveText">0</b></div>
+              <div><span>当前股票</span><b id="syncCurrentText">-</b></div>
+              <div><span>当前状态</span><b id="syncStatusText">-</b></div>
+              <div><span>已耗时</span><b id="syncElapsedText">-</b></div>
+              <div><span>预计剩余</span><b id="syncRemainingText">-</b></div>
+              <div><span>平均每只</span><b id="syncAvgCostText">-</b></div>
+              <div><span>状态文件</span><b id="syncStatePathText">-</b></div>
+            </div>
+            <div class="sync-progress-track" aria-label="同步进度">
+              <div id="syncProgressFill" class="sync-progress-fill"></div>
+            </div>
+            <div id="syncMessageText" class="sync-message">等待同步。</div>
+          </div>
+        </section>
+
+        <div class="hint-box">
+        </div>
+      </section>
+
+      <section class="panel result-panel">
+        <h2>结构观察结果</h2>
+        <div id="marketIndexPanel" class="market-index-panel">
+  <div class="market-index-heading">
+    <div>
+      <div class="market-index-title">官方指数态图</div>
+      <div class="market-index-subtitle">独立 index_daily_bars 表；腾讯主源，东方财富补源，BaoStock 保底。</div>
+    </div>
+    <div class="market-index-actions">
+      <button id="marketIndexRefreshButton" type="button">刷新指数态</button>
+      <button id="marketIndexSyncButton" type="button">同步指数</button>
+    </div>
+  </div>
+  <div class="market-index-range-bar">
+  <label class="market-index-range-item">
+    显示区间
+    <select id="marketIndexRangePreset">
+      <option value="1y" selected>近 1 年</option>
+      <option value="3y">近 3 年</option>
+      <option value="5y">近 5 年</option>
+      <option value="all">全段</option>
+      <option value="backtest">跟随回测区间</option>
+      <option value="custom">自定义</option>
+    </select>
+  </label>
+
+  <label class="market-index-range-item">
+    起始
+    <input id="marketIndexRangeStart" type="text" placeholder="YYYYMMDD" />
+  </label>
+
+  <label class="market-index-range-item">
+    结束
+    <input id="marketIndexRangeEnd" type="text" placeholder="留空=最新" />
+  </label>
+
+  <button id="marketIndexApplyRangeButton" type="button">应用区间</button>
+</div>
+  <div id="marketIndexChartBox" class="market-index-chart-box">正在读取本地官方指数态缓存...</div>
+  <div id="marketIndexLog" class="market-index-log">指数态图放在结构观察结果上方，不影响原市场态总览图。</div>
+</div>
+        <div id="statusBox" class="status-box">等待输入股票代码。</div>
+
+        <div id="metaBox" class="meta-box"></div>
+
+        <div class="table-wrap">
+          <table id="resultTable">
+            <thead>
+              <tr>
+                <th>决策链</th>
+                <th>交易次数</th>
+                <th>胜率</th>
+                <th>平均收益</th>
+                <th>中位收益</th>
+                <th>最大回撤</th>
+                <th>最大单笔亏损</th>
+                <th>平均持仓天数</th>
+                <th>扣费前收益</th>
+                <th>扣费后净收益</th>
+                <th>费用合计</th>
+              </tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+          </table>
+        </div>
+
+        <div id="curveChartSection" class="chart-section">
+          <div id="interactiveCurveBox" class="interactive-curve-box">
+            <div class="chart-title interactive-curve-title">
+  <span>形位变交互观察图</span>
+  <span id="interactiveCurveStockBadge" class="interactive-curve-stock-badge">等待数据...</span>
+</div>
+            <div id="timelineControlBox" class="timeline-control-box">
+              <div class="timeline-control-row">
+                <label class="timeline-control-group">
+                  粒度
+                  <select id="timelineModeSelect" class="timeline-select">
+                    <option value="all">全部</option>
+                    <option value="year">年</option>
+                    <option value="month">月</option>
+                    <option value="day">日</option>
+                  </select>
+                </label>
+
+                <label class="timeline-control-group">
+                  年份
+                  <select id="timelineYearSelect" class="timeline-select"></select>
+                </label>
+
+                <label class="timeline-control-group">
+                  月份
+                  <select id="timelineMonthSelect" class="timeline-select"></select>
+                </label>
+
+                <label class="timeline-control-group">
+                  日期
+                  <input id="timelineDateInput" class="timeline-date" type="date" />
+                </label>
+              </div>
+
+              <div class="timeline-quick-row">
+                <button id="timelineQuickAll" class="timeline-quick-btn" type="button">全部</button>
+                <button id="timelineQuick1Y" class="timeline-quick-btn" type="button">最近一年</button>
+                <button id="timelineQuick6M" class="timeline-quick-btn" type="button">最近半年</button>
+                <button id="timelineQuick3M" class="timeline-quick-btn" type="button">最近三个月</button>
+                <button id="timelineQuick1M" class="timeline-quick-btn" type="button">最近一月</button>
+              </div>
+            </div>
+            <div class="interactive-curve-layout">
+              <div id="interactiveCurveSvg" class="interactive-curve-svg"></div>
+              <div id="interactiveInfoPanel" class="interactive-info-panel">移动鼠标查看曲线信息。</div>
+            </div>
+          </div>
+          <div id="nodePredictionStatusBar" class="node-prediction-status-bar">
+            点击曲线上的日期节点，查看图内预判路径。
+          </div>
+        </div>
+
+        <div id="opportunityAnalysisBox" class="opportunity-analysis-box"></div>
+
+        <div id="stateAnalysisBox" class="state-analysis-box"></div>
+
+        <div id="tradeBox" class="trade-box"></div>
+
+        <div id="modelChartBox" class="model-chart-box"></div>
+      </section>
+
+      <section id="marketGraphPanel" class="panel market-graph-panel">
+        <div id="marketStateOverviewPanel" class="market-state-overview-panel">
+          <div class="market-state-overview-heading">
+            <div>
+              <h2>市场态总览图</h2>
+              <p>基于本地 universe 与 SQLite 缓存，动态计算 A股 / 港股当前市场态。</p>
+            </div>
+            <div class="market-state-overview-actions">
+              <input id="marketStateOverviewDateInput" placeholder="留空=最新缓存交易日，格式 2026-06-10" />
+              <button id="marketStateOverviewRefreshButton" type="button">刷新市场态</button>
+            </div>
+          </div>
+          <div id="marketStateOverviewGrid" class="market-state-overview-grid">
+            等待刷新市场态。
+          </div>
+          <div id="marketStateOverviewLog" class="market-state-overview-log">
+            市场态样本池：A股 / 港股均从本地 universe 与缓存动态读取，不使用固定股票列表。
+          </div>
+        </div>
+        <div id="structureCandidatePoolPanel" class="structure-candidate-pool-panel">
+          <div class="structure-candidate-pool-heading">
+            <div>
+              <h2>结构候选池 V0</h2>
+              <p>基于当前市场态，从本地全市场缓存中筛出观察样本；不是推荐买入。</p>
+            </div>
+<div class="structure-candidate-pool-actions">
+  <div class="structure-candidate-pool-toolbar">
+    <input
+      id="structureCandidatePoolSearchInput"
+      class="structure-candidate-pool-search-input"
+      placeholder="搜索代码 / 名称 / 产业链 / 类型 / 理由，例如 920634、新威凌、机器人、预热"
+    />
+    <button
+      id="structureCandidatePoolClearSearchButton"
+      class="structure-candidate-pool-clear-button"
+      type="button"
+    >清空</button>
+    <button
+      id="structureCandidatePoolRefreshButton"
+      class="structure-candidate-pool-refresh-button"
+      type="button"
+    >刷新候选池</button>
+  </div>
+  <div id="structureCandidatePoolSearchStatus" class="structure-candidate-pool-search-status">等待候选池</div>
+</div>
+          </div>
+          <div id="structureCandidatePoolGrid" class="structure-candidate-pool-grid">
+            等待刷新候选池。
+          </div>
+          <div id="structureCandidatePoolLog" class="structure-candidate-pool-log">
+            候选池会跟随市场态日期计算，弱市场优先显示逆势强结构、修复候选和破位风险。
+          </div>
+        </div>
+        <div class="market-graph-heading">
+          <div>
+            <h2>市场态星图 V0</h2>
+            <p>股票 - 行业 - 概念 - 板块关系网络</p>
+          </div>
+          <div id="marketGraphModeBadge" class="market-graph-mode-badge">SAMPLE 50</div>
+        </div>
+
+        <div class="market-graph-fetch-toolbar" aria-label="市场态星图采集工具栏">
+          <button id="marketGraphFetchSample5Button" type="button" title="用于验证环境">采集 5 个样本</button>
+          <button id="marketGraphFetchLimit50Button" type="button" title="小批量测试">采集 50 个</button>
+          <button id="marketGraphFetchLimit300Button" type="button" title="中批量测试">采集 300 个</button>
+          <button id="marketGraphFetchAllButton" type="button" title="断点续跑，DONE 自动跳过">继续采集全量</button>
+          <button id="marketGraphFetchRetryFailedButton" type="button" title="只跑失败项">重试失败</button>
+          <button id="marketGraphFetchStopButton" type="button" title="停止当前采集进程">停止采集</button>
+          <button id="marketGraphFetchStatusButton" type="button">刷新状态</button>
+          <button id="marketGraphLoadSampleButton" type="button">加载样本星图</button>
+        </div>
+
+        <div class="market-graph-toolbar" aria-label="市场态星图工具栏">
+          <button id="marketGraphRefreshSummaryButton" type="button">刷新关系摘要</button>
+          <button id="marketGraphLoadFullButton" type="button">加载全量星图</button>
+          <button id="marketGraphIndustryOnlyButton" type="button" data-market-graph-filter="industry">只看行业</button>
+          <button id="marketGraphConceptOnlyButton" type="button" data-market-graph-filter="concept">只看概念</button>
+          <button id="marketGraphAllFilterButton" type="button" data-market-graph-filter="all">全部关系</button>
+          <div class="market-graph-search">
+            <input id="marketGraphSearchInput" placeholder="股票代码/名称，例如 600519 / HK:00700" />
+            <button id="marketGraphSearchButton" type="button">搜索</button>
+          </div>
+        </div>
+
+        <div class="market-graph-fetch-status-card" aria-label="关系数据采集状态">
+          <div><span>采集状态</span><b id="marketGraphFetchRunningText">空闲</b></div>
+          <div><span>进程 PID</span><b id="marketGraphFetchPidText">-</b></div>
+          <div><span>本次总数</span><b id="marketGraphFetchTotalText">0</b></div>
+          <div><span>本次完成</span><b id="marketGraphFetchDoneText">0</b></div>
+          <div><span>本次失败</span><b id="marketGraphFetchFailedText">0</b></div>
+          <div><span>本次跳过</span><b id="marketGraphFetchSkippedText">0</b></div>
+          <div><span>当前股票</span><b id="marketGraphFetchCurrentText">-</b></div>
+          <div><span>更新时间</span><b id="marketGraphFetchUpdatedAtText">-</b></div>
+          <div><span>seed 已完成</span><b id="marketGraphFetchSeedDoneText">0</b></div>
+          <div><span>seed 失败</span><b id="marketGraphFetchSeedFailedText">0</b></div>
+          <div><span>选用 Python</span><b id="marketGraphFetchPythonText">-</b></div>
+          <div><span>Python 预检</span><b id="marketGraphFetchPreflightText">未检查</b></div>
+        </div>
+
+        <div class="market-graph-stats" aria-label="市场态星图统计">
+          <div><span>已采集股票数</span><b id="marketGraphDoneText">0</b></div>
+          <div><span>概念节点数</span><b id="marketGraphConceptText">0</b></div>
+          <div><span>行业节点数</span><b id="marketGraphIndustryText">0</b></div>
+          <div><span>板块节点数</span><b id="marketGraphBoardText">0</b></div>
+          <div><span>关系边数</span><b id="marketGraphEdgeText">0</b></div>
+          <div><span>失败数</span><b id="marketGraphFailedText">0</b></div>
+        </div>
+
+        <div class="market-graph-layout">
+          <div class="market-graph-map-shell">
+            <div id="marketGraphSvgBox" class="market-graph-svg-box">等待加载样本星图。</div>
+          </div>
+          <aside id="marketGraphDetail" class="market-graph-detail">
+            <h3>节点详情</h3>
+            <div class="market-graph-detail-empty">点击星图节点查看关系。</div>
+          </aside>
+        </div>
+
+        <div id="marketGraphLog" class="market-graph-log">等待读取 seed。</div>
+        <pre id="marketGraphFetchLogs" class="market-graph-fetch-logs">暂无采集日志。</pre>
+        <details class="market-graph-fetch-error-collapse">
+  <summary id="marketGraphFetchErrorsSummary">失败股票 / 错误记录：0 条（点击展开）</summary>
+  <div id="marketGraphFetchErrors" class="market-graph-fetch-errors">暂无错误记录。</div>
+</details>
+      </section>
+      <section id="supplyChainPanel" class="panel supply-chain-panel">
+  <div class="supply-chain-heading">
+    <div>
+      <h2>产业链图谱</h2>
+      <p>系统推断</p>
+    </div>
+    <div id="supplyChainModeBadge" class="supply-chain-mode-badge">SEED V2</div>
+  </div>
+
+  <div class="supply-chain-stats" aria-label="产业链统计">
+    <div><span>一级产业链</span><b id="supplyChainPrimaryCountText">0</b></div>
+    <div><span>二级细分链</span><b id="supplyChainSecondaryCountText">0</b></div>
+    <div><span>股票数量</span><b id="supplyChainStockCountText">0</b></div>
+    <div><span>归属记录</span><b id="supplyChainAssignmentCountText">0</b></div>
+  </div>
+
+  <div class="supply-chain-toolbar" aria-label="产业链查询">
+    <button id="supplyChainRefreshButton" type="button">刷新产业链</button>
+    <div class="supply-chain-search">
+      <input id="supplyChainStockSearchInput" maxlength="12" placeholder="股票代码，例如 300750 / HK:00700" />
+      <button id="supplyChainStockSearchButton" type="button">查询</button>
+    </div>
+  </div>
+
+  <div class="supply-chain-layout">
+    <aside class="supply-chain-column">
+      <h3>一级产业链</h3>
+      <div id="supplyChainPrimaryList" class="supply-chain-list">等待读取。</div>
+    </aside>
+
+    <aside class="supply-chain-column">
+      <h3>二级细分链</h3>
+      <div id="supplyChainSecondaryList" class="supply-chain-list">请选择一级产业链。</div>
+    </aside>
+
+    <section class="supply-chain-detail">
+      <div class="supply-chain-detail-heading">
+        <div>
+          <h3 id="supplyChainDetailTitle">产业链关系图</h3>
+<p id="supplyChainDetailMeta">点击二级细分链查看上游 → 中游 → 下游 → 终端应用关系图。</p>
+        </div>
+      </div>
+      <div id="supplyChainLayerBox" class="supply-chain-layer-box"></div>
+    </section>
+  </div>
+
+  <div id="supplyChainStockResult" class="supply-chain-stock-result">输入股票代码查询产业链归属。</div>
+
+    <section id="supplyChainEditorPanel" class="supply-chain-editor-panel">
+    <div class="supply-chain-editor-heading">
+      <div>
+        <h3>产业链编辑器 V0</h3>
+        <p>搜索股票后拖入上游 / 中游 / 下游 / 配套服务 / 终端应用，保存为自建产业链。</p>
+      </div>
+      <div class="supply-chain-editor-actions">
+<button id="supplyChainEditorLoadButton" type="button">载入当前自建链</button>
+<button id="supplyChainEditorDeleteButton" type="button">删除当前自建链</button>
+<button id="supplyChainEditorClearButton" type="button">清空编辑区</button>
+<button id="supplyChainEditorSaveButton" type="button">保存产业链</button>
+      </div>
+    </div>
+
+    <div class="supply-chain-editor-form">
+      <label>
+        一级产业链
+        <input id="supplyChainEditorPrimaryInput" placeholder="例如 AI算力基础设施" />
+      </label>
+      <label>
+        二级细分链
+        <input id="supplyChainEditorSecondaryInput" placeholder="例如 AI服务器与液冷" />
+      </label>
+      <label>
+        备注
+        <input id="supplyChainEditorNoteInput" placeholder="可选，例如 自建观察链" />
+      </label>
+    </div>
+
+    <div class="supply-chain-editor-layout">
+      <aside class="supply-chain-editor-search-panel">
+        <h4>搜索股票</h4>
+        <div class="supply-chain-editor-search">
+          <input id="supplyChainEditorSearchInput" placeholder="600519 / 宁德时代 / HK:00700" />
+          <button id="supplyChainEditorSearchButton" type="button">搜索</button>
+        </div>
+        <div id="supplyChainEditorSearchResult" class="supply-chain-editor-search-result">
+          输入股票代码或名称搜索。
+        </div>
+      </aside>
+
+      <section class="supply-chain-editor-drop-panel">
+        <h4>编辑区域</h4>
+        <div id="supplyChainEditorDropGrid" class="supply-chain-editor-drop-grid">
+          <div class="supply-chain-editor-drop-zone" data-layer="upstream">
+            <h5>上游</h5>
+            <div class="supply-chain-editor-drop-list" data-layer-list="upstream">拖入股票</div>
+          </div>
+          <div class="supply-chain-editor-drop-zone" data-layer="midstream">
+            <h5>中游</h5>
+            <div class="supply-chain-editor-drop-list" data-layer-list="midstream">拖入股票</div>
+          </div>
+          <div class="supply-chain-editor-drop-zone" data-layer="downstream">
+            <h5>下游</h5>
+            <div class="supply-chain-editor-drop-list" data-layer-list="downstream">拖入股票</div>
+          </div>
+          <div class="supply-chain-editor-drop-zone" data-layer="service">
+            <h5>配套服务</h5>
+            <div class="supply-chain-editor-drop-list" data-layer-list="service">拖入股票</div>
+          </div>
+          <div class="supply-chain-editor-drop-zone" data-layer="terminal">
+            <h5>终端应用</h5>
+            <div class="supply-chain-editor-drop-list" data-layer-list="terminal">拖入股票</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="supplyChainEditorStatus" class="supply-chain-editor-status">
+      用户自建产业链保存后会进入一级 / 二级产业链列表，不会改 seed 原始文件。
+    </div>
+
+    <div id="supplyChainDeleteConfirmOverlay" class="supply-chain-delete-confirm-overlay" hidden>
+      <div class="supply-chain-delete-confirm-card" role="dialog" aria-modal="true" aria-labelledby="supplyChainDeleteConfirmTitle">
+        <div class="supply-chain-delete-confirm-glow"></div>
+
+        <div class="supply-chain-delete-confirm-head">
+          <span>USER CHAIN DELETE</span>
+          <h3 id="supplyChainDeleteConfirmTitle">删除用户自建产业链</h3>
+        </div>
+
+        <div class="supply-chain-delete-confirm-body">
+          <p id="supplyChainDeleteConfirmMessage">确认删除当前选中的用户自建二级链？</p>
+          <div id="supplyChainDeleteConfirmTarget" class="supply-chain-delete-confirm-target">-</div>
+          <small>只删除用户自建文件，不会影响系统 seed。</small>
+        </div>
+
+        <div class="supply-chain-delete-confirm-actions">
+          <button id="supplyChainDeleteConfirmCancelButton" type="button">取消</button>
+          <button id="supplyChainDeleteConfirmOkButton" type="button">确认删除</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div id="observationMatrixSummaryBox" class="observation-matrix-summary-card">
+  <div class="observation-matrix-empty">
+    点击观察图上的日期节点后，这里显示结构观察摘要。
+  </div>
+</div>
+
+<div id="structureRhythmBox" class="structure-rhythm-box">
+  <div class="structure-rhythm-empty">
+    点击观察图日期节点后，这里生成“结构律动图”：中心股变化、关系圈响应、产业链传导。
+  </div>
+</div>
+
+<div id="supplyChainStatus" class="supply-chain-status">等待读取产业链 seed。</div>
+</section>
+    </main>
+  </div>
+
+  <div id="appInfoModalOverlay" class="app-info-modal-overlay" hidden>
+  <div class="app-info-modal-card" role="dialog" aria-modal="true" aria-labelledby="appInfoModalTitle">
+    <div class="app-info-modal-glow"></div>
+
+    <div class="app-info-modal-head">
+      <span id="appInfoModalBadge">XING WEI BIAN</span>
+      <button id="appInfoModalCloseButton" type="button" aria-label="关闭">×</button>
+    </div>
+
+    <h2 id="appInfoModalTitle">关于</h2>
+
+    <div id="appInfoModalBody" class="app-info-modal-body"></div>
+
+    <div class="app-info-modal-actions">
+      <button id="appInfoModalCopyButton" type="button" hidden>复制联系方式</button>
+      <button id="appInfoModalOkButton" type="button">知道了</button>
+    </div>
+  </div>
+</div>
+
+<script src="./renderer.js"></script>
+</body>
+</html>

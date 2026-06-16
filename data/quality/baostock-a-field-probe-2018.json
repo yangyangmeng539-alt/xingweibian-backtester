@@ -1,0 +1,391 @@
+{
+  "start": "2018-01-01",
+  "end": "2026-06-10",
+  "symbols": [
+    {
+      "symbol": "600519",
+      "source": "baostock",
+      "ok": true,
+      "error": null,
+      "rows": 2045,
+      "dateStart": "2018-01-02",
+      "dateEnd": "2026-06-10",
+      "volumePositivePct": 100.0,
+      "amountPositivePct": 100.0,
+      "turnPositivePct": 100.0,
+      "firstRows": [
+        {
+          "symbol": "600519",
+          "date": "2018-01-02",
+          "open": 589.2754,
+          "high": 597.82831152,
+          "low": 580.76457958,
+          "close": 592.5164147,
+          "preclose": 587.16242678,
+          "volume": 4961248.0,
+          "amount": 3482407646.0,
+          "turn": 0.394942,
+          "pctChg": 0.911839,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "600519",
+          "date": "2018-01-03",
+          "open": 590.538133,
+          "high": 607.2903908,
+          "low": 589.05652628,
+          "close": 602.62669692,
+          "preclose": 592.5164147,
+          "volume": 5201941.0,
+          "amount": 3713523701.0,
+          "turn": 0.414102,
+          "pctChg": 1.706331,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "lastRows": [
+        {
+          "symbol": "600519",
+          "date": "2026-06-09",
+          "open": 1262.99,
+          "high": 1263.0,
+          "low": 1252.55,
+          "close": 1256.0,
+          "preclose": 1262.98,
+          "volume": 2786012.0,
+          "amount": 3500590714.75,
+          "turn": 0.2229,
+          "pctChg": -0.5527,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "600519",
+          "date": "2026-06-10",
+          "open": 1252.08,
+          "high": 1282.0,
+          "low": 1250.21,
+          "close": 1275.88,
+          "preclose": 1256.0,
+          "volume": 3924414.0,
+          "amount": 4991686419.32,
+          "turn": 0.3139,
+          "pctChg": 1.5828,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ]
+    },
+    {
+      "symbol": "300750",
+      "source": "baostock",
+      "ok": true,
+      "error": null,
+      "rows": 1940,
+      "dateStart": "2018-06-11",
+      "dateEnd": "2026-06-10",
+      "volumePositivePct": 100.0,
+      "amountPositivePct": 100.0,
+      "turnPositivePct": 100.0,
+      "firstRows": [
+        {
+          "symbol": "300750",
+          "date": "2018-06-11",
+          "open": 15.47401198,
+          "high": 18.5667628,
+          "low": 15.47401198,
+          "close": 18.5667628,
+          "preclose": 12.89415516,
+          "volume": 78829.0,
+          "amount": 2845471.8,
+          "turn": 0.036286,
+          "pctChg": 43.99364,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "300750",
+          "date": "2018-06-12",
+          "open": 20.42343908,
+          "high": 20.42343908,
+          "low": 20.42343908,
+          "close": 20.42343908,
+          "preclose": 18.5667628,
+          "volume": 26579.0,
+          "amount": 1058375.78,
+          "turn": 0.012235,
+          "pctChg": 9.999997,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "lastRows": [
+        {
+          "symbol": "300750",
+          "date": "2026-06-09",
+          "open": 399.99,
+          "high": 401.87,
+          "low": 388.0,
+          "close": 399.5,
+          "preclose": 393.02,
+          "volume": 27735147.0,
+          "amount": 10926469616.65,
+          "turn": 0.6515,
+          "pctChg": 1.6488,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "300750",
+          "date": "2026-06-10",
+          "open": 395.28,
+          "high": 399.0,
+          "low": 385.12,
+          "close": 388.5,
+          "preclose": 399.5,
+          "volume": 24435715.0,
+          "amount": 9535581227.17,
+          "turn": 0.574,
+          "pctChg": -2.7534,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ]
+    },
+    {
+      "symbol": "000001",
+      "source": "baostock",
+      "ok": true,
+      "error": null,
+      "rows": 2045,
+      "dateStart": "2018-01-02",
+      "dateEnd": "2026-06-10",
+      "volumePositivePct": 100.0,
+      "amountPositivePct": 100.0,
+      "turnPositivePct": 100.0,
+      "firstRows": [
+        {
+          "symbol": "000001",
+          "date": "2018-01-02",
+          "open": 10.54557885,
+          "high": 11.00373883,
+          "low": 10.52188092,
+          "close": 10.8220547,
+          "preclose": 10.5060823,
+          "volume": 208159255.0,
+          "amount": 2856543822.18,
+          "turn": 1.230402,
+          "pctChg": 3.007516,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "000001",
+          "date": "2018-01-03",
+          "open": 10.84575263,
+          "high": 10.94844366,
+          "low": 10.4270892,
+          "close": 10.52978023,
+          "preclose": 10.8220547,
+          "volume": 296249840.0,
+          "amount": 4006220766.94,
+          "turn": 1.751094,
+          "pctChg": -2.700729,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "lastRows": [
+        {
+          "symbol": "000001",
+          "date": "2026-06-09",
+          "open": 11.01,
+          "high": 11.19,
+          "low": 10.96,
+          "close": 11.13,
+          "preclose": 11.03,
+          "volume": 114967234.0,
+          "amount": 1277122415.79,
+          "turn": 0.5924,
+          "pctChg": 0.9066,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "000001",
+          "date": "2026-06-10",
+          "open": 11.07,
+          "high": 11.35,
+          "low": 11.07,
+          "close": 11.32,
+          "preclose": 11.13,
+          "volume": 154317639.0,
+          "amount": 1738056712.03,
+          "turn": 0.7952,
+          "pctChg": 1.7071,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ]
+    },
+    {
+      "symbol": "688981",
+      "source": "baostock",
+      "ok": true,
+      "error": null,
+      "rows": 1430,
+      "dateStart": "2020-07-16",
+      "dateEnd": "2026-06-10",
+      "volumePositivePct": 99.5804,
+      "amountPositivePct": 99.5804,
+      "turnPositivePct": 99.5804,
+      "firstRows": [
+        {
+          "symbol": "688981",
+          "date": "2020-07-16",
+          "open": 95.0,
+          "high": 95.0,
+          "low": 80.0,
+          "close": 82.92,
+          "preclose": 27.46,
+          "volume": 552103904.0,
+          "amount": 47967171062.0,
+          "turn": 53.0751,
+          "pctChg": 201.9665,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "688981",
+          "date": "2020-07-17",
+          "open": 79.0,
+          "high": 84.9,
+          "low": 75.0,
+          "close": 77.06,
+          "preclose": 82.92,
+          "volume": 219471588.0,
+          "amount": 17388147968.0,
+          "turn": 21.0983,
+          "pctChg": -7.0671,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "lastRows": [
+        {
+          "symbol": "688981",
+          "date": "2026-06-09",
+          "open": 123.5,
+          "high": 128.03,
+          "low": 120.89,
+          "close": 127.3,
+          "preclose": 121.92,
+          "volume": 76966277.0,
+          "amount": 9607775525.82,
+          "turn": 3.8492,
+          "pctChg": 4.4127,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "688981",
+          "date": "2026-06-10",
+          "open": 125.0,
+          "high": 131.18,
+          "low": 124.5,
+          "close": 125.34,
+          "preclose": 127.3,
+          "volume": 66909414.0,
+          "amount": 8511488618.06,
+          "turn": 3.3462,
+          "pctChg": -1.5397,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ]
+    },
+    {
+      "symbol": "601919",
+      "source": "baostock",
+      "ok": true,
+      "error": null,
+      "rows": 2045,
+      "dateStart": "2018-01-02",
+      "dateEnd": "2026-06-10",
+      "volumePositivePct": 100.0,
+      "amountPositivePct": 100.0,
+      "turnPositivePct": 100.0,
+      "firstRows": [
+        {
+          "symbol": "601919",
+          "date": "2018-01-02",
+          "open": 2.97609054,
+          "high": 3.01966434,
+          "low": 2.94994626,
+          "close": 3.0065922,
+          "preclose": 2.94994626,
+          "volume": 49180700.0,
+          "amount": 337706678.0,
+          "turn": 0.644091,
+          "pctChg": 1.920238,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "601919",
+          "date": "2018-01-03",
+          "open": 3.050166,
+          "high": 3.14602836,
+          "low": 3.03273648,
+          "close": 3.06323814,
+          "preclose": 3.0065922,
+          "volume": 92033828.0,
+          "amount": 652782876.0,
+          "turn": 1.205314,
+          "pctChg": 1.88406,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ],
+      "lastRows": [
+        {
+          "symbol": "601919",
+          "date": "2026-06-09",
+          "open": 14.86,
+          "high": 14.97,
+          "low": 14.66,
+          "close": 14.81,
+          "preclose": 15.02,
+          "volume": 100158793.0,
+          "amount": 1481023156.56,
+          "turn": 0.7977,
+          "pctChg": -1.3981,
+          "tradestatus": "1",
+          "isST": "0"
+        },
+        {
+          "symbol": "601919",
+          "date": "2026-06-10",
+          "open": 14.71,
+          "high": 14.81,
+          "low": 14.38,
+          "close": 14.41,
+          "preclose": 14.81,
+          "volume": 106653404.0,
+          "amount": 1548302311.02,
+          "turn": 0.8494,
+          "pctChg": -2.7009,
+          "tradestatus": "1",
+          "isST": "0"
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    "BaoStock 跑通 5 / 5 个测试股票。",
+    "BaoStock A股 amount 可用，可作为 A股 2018 后重拉字段源。",
+    "BaoStock A股 turn 可用，可作为 A股 2018 后换手率字段源。"
+  ]
+}

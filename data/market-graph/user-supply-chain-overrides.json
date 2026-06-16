@@ -1,0 +1,5 @@
+{
+  "version": "dev-0.2.0",
+  "description": "用户对系统推断供应链的新增、删除、移动、确认、否定等覆盖记录。合并优先级 user > inferred > raw。",
+  "overrides": []
+}

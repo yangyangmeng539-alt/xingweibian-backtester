@@ -1,0 +1,5645 @@
+{
+  "version": "dev-0.1.9.2-cross-market-relation-core",
+  "generatedAt": "2026-06-10T18:19:10.220Z",
+  "source": "manual:cross_market_seed",
+  "description": "跨市场关系 seed：核心节点扩容版，只用于关系图与产业链展示，不进入预测层。｜已强制补齐公司级 A+H 映射。",
+  "total": 156,
+  "done": 156,
+  "failed": 0,
+  "items": {
+    "300014": {
+      "code": "300014",
+      "symbol": "300014",
+      "name": "亿纬锂能",
+      "displayName": "亿纬锂能",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "储能",
+          "plate_name": "储能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "300033": {
+      "code": "300033",
+      "symbol": "300033",
+      "name": "同花顺",
+      "displayName": "同花顺",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "300058": {
+      "code": "300058",
+      "symbol": "300058",
+      "name": "蓝色光标",
+      "displayName": "蓝色光标",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "300347": {
+      "code": "300347",
+      "symbol": "300347",
+      "name": "泰格医药",
+      "displayName": "泰格医药",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：泰格医药",
+          "plate_name": "A+H映射：泰格医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "300418": {
+      "code": "300418",
+      "symbol": "300418",
+      "name": "昆仑万维",
+      "displayName": "昆仑万维",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "游戏",
+          "plate_name": "游戏",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "300459": {
+      "code": "300459",
+      "symbol": "300459",
+      "name": "汤姆猫",
+      "displayName": "汤姆猫",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "游戏",
+          "plate_name": "游戏",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "300750": {
+      "code": "300750",
+      "symbol": "300750",
+      "name": "宁德时代",
+      "displayName": "宁德时代",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "储能",
+          "plate_name": "储能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "300759": {
+      "code": "300759",
+      "symbol": "300759",
+      "name": "康龙化成",
+      "displayName": "康龙化成",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：康龙化成",
+          "plate_name": "A+H映射：康龙化成",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600011": {
+      "code": "600011",
+      "symbol": "600011",
+      "name": "华能国际",
+      "displayName": "华能国际",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电力",
+          "plate_name": "电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "火电",
+          "plate_name": "火电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：华能国际",
+          "plate_name": "A+H映射：华能国际",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600026": {
+      "code": "600026",
+      "symbol": "600026",
+      "name": "中远海能",
+      "displayName": "中远海能",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "航运物流",
+          "plate_name": "航运物流",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "油运",
+          "plate_name": "油运",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中远海能",
+          "plate_name": "A+H映射：中远海能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600028": {
+      "code": "600028",
+      "symbol": "600028",
+      "name": "中国石化",
+      "displayName": "中国石化",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "炼化",
+          "plate_name": "炼化",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国石化",
+          "plate_name": "A+H映射：中国石化",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600030": {
+      "code": "600030",
+      "symbol": "600030",
+      "name": "中信证券",
+      "displayName": "中信证券",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.818Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "资本市场",
+          "plate_name": "资本市场",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中信证券",
+          "plate_name": "A+H映射：中信证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600036": {
+      "code": "600036",
+      "symbol": "600036",
+      "name": "招商银行",
+      "displayName": "招商银行",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "银行",
+          "plate_name": "银行",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "零售银行",
+          "plate_name": "零售银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：招商银行",
+          "plate_name": "A+H映射：招商银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600050": {
+      "code": "600050",
+      "symbol": "600050",
+      "name": "中国联通",
+      "displayName": "中国联通",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信运营商",
+          "plate_name": "通信运营商",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国联通",
+          "plate_name": "A+H映射：中国联通",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "600188": {
+      "code": "600188",
+      "symbol": "600188",
+      "name": "兖矿能源",
+      "displayName": "兖矿能源",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "煤炭",
+          "plate_name": "煤炭",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：兖矿能源",
+          "plate_name": "A+H映射：兖矿能源",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600196": {
+      "code": "600196",
+      "symbol": "600196",
+      "name": "复星医药",
+      "displayName": "复星医药",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药",
+          "plate_name": "医药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "医疗服务",
+          "plate_name": "医疗服务",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：复星医药",
+          "plate_name": "A+H映射：复星医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600362": {
+      "code": "600362",
+      "symbol": "600362",
+      "name": "江西铜业",
+      "displayName": "江西铜业",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铜",
+          "plate_name": "铜",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：江西铜业",
+          "plate_name": "A+H映射：江西铜业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600547": {
+      "code": "600547",
+      "symbol": "600547",
+      "name": "山东黄金",
+      "displayName": "山东黄金",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "黄金",
+          "plate_name": "黄金",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：山东黄金",
+          "plate_name": "A+H映射：山东黄金",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600690": {
+      "code": "600690",
+      "symbol": "600690",
+      "name": "海尔智家",
+      "displayName": "海尔智家",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "家电",
+          "plate_name": "家电",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能家居",
+          "plate_name": "智能家居",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：海尔智家",
+          "plate_name": "A+H映射：海尔智家",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600837": {
+      "code": "600837",
+      "symbol": "600837",
+      "name": "海通证券",
+      "displayName": "海通证券",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "资本市场",
+          "plate_name": "资本市场",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：海通证券",
+          "plate_name": "A+H映射：海通证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600938": {
+      "code": "600938",
+      "symbol": "600938",
+      "name": "中国海油",
+      "displayName": "中国海油",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "油气开采",
+          "plate_name": "油气开采",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国海油",
+          "plate_name": "A+H映射：中国海油",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "600941": {
+      "code": "600941",
+      "symbol": "600941",
+      "name": "中国移动",
+      "displayName": "中国移动",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信运营商",
+          "plate_name": "通信运营商",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国移动",
+          "plate_name": "A+H映射：中国移动",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "601066": {
+      "code": "601066",
+      "symbol": "601066",
+      "name": "中信建投",
+      "displayName": "中信建投",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "投行",
+          "plate_name": "投行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中信建投",
+          "plate_name": "A+H映射：中信建投",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601088": {
+      "code": "601088",
+      "symbol": "601088",
+      "name": "中国神华",
+      "displayName": "中国神华",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "煤炭",
+          "plate_name": "煤炭",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国神华",
+          "plate_name": "A+H映射：中国神华",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601186": {
+      "code": "601186",
+      "symbol": "601186",
+      "name": "中国铁建",
+      "displayName": "中国铁建",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "中字头",
+          "plate_name": "中字头",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国铁建",
+          "plate_name": "A+H映射：中国铁建",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601238": {
+      "code": "601238",
+      "symbol": "601238",
+      "name": "广汽集团",
+      "displayName": "广汽集团",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：广汽集团",
+          "plate_name": "A+H映射：广汽集团",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601318": {
+      "code": "601318",
+      "symbol": "601318",
+      "name": "中国平安",
+      "displayName": "中国平安",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "保险",
+          "plate_name": "保险",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "金融科技",
+          "plate_name": "金融科技",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国平安",
+          "plate_name": "A+H映射：中国平安",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601390": {
+      "code": "601390",
+      "symbol": "601390",
+      "name": "中国中铁",
+      "displayName": "中国中铁",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "中字头",
+          "plate_name": "中字头",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国中铁",
+          "plate_name": "A+H映射：中国中铁",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601398": {
+      "code": "601398",
+      "symbol": "601398",
+      "name": "工商银行",
+      "displayName": "工商银行",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "银行",
+          "plate_name": "银行",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "国有大行",
+          "plate_name": "国有大行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：工商银行",
+          "plate_name": "A+H映射：工商银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601600": {
+      "code": "601600",
+      "symbol": "601600",
+      "name": "中国铝业",
+      "displayName": "中国铝业",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铝",
+          "plate_name": "铝",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国铝业",
+          "plate_name": "A+H映射：中国铝业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601628": {
+      "code": "601628",
+      "symbol": "601628",
+      "name": "中国人寿",
+      "displayName": "中国人寿",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "保险",
+          "plate_name": "保险",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国人寿",
+          "plate_name": "A+H映射：中国人寿",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601633": {
+      "code": "601633",
+      "symbol": "601633",
+      "name": "长城汽车",
+      "displayName": "长城汽车",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能驾驶",
+          "plate_name": "智能驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：长城汽车",
+          "plate_name": "A+H映射：长城汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601688": {
+      "code": "601688",
+      "symbol": "601688",
+      "name": "华泰证券",
+      "displayName": "华泰证券",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "财富管理",
+          "plate_name": "财富管理",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：华泰证券",
+          "plate_name": "A+H映射：华泰证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601728": {
+      "code": "601728",
+      "symbol": "601728",
+      "name": "中国电信",
+      "displayName": "中国电信",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信运营商",
+          "plate_name": "通信运营商",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国电信",
+          "plate_name": "A+H映射：中国电信",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "601766": {
+      "code": "601766",
+      "symbol": "601766",
+      "name": "中国中车",
+      "displayName": "中国中车",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "轨交装备",
+          "plate_name": "轨交装备",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "高端装备",
+          "plate_name": "高端装备",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国中车",
+          "plate_name": "A+H映射：中国中车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601800": {
+      "code": "601800",
+      "symbol": "601800",
+      "name": "中国交建",
+      "displayName": "中国交建",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "中字头",
+          "plate_name": "中字头",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国交建",
+          "plate_name": "A+H映射：中国交建",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601857": {
+      "code": "601857",
+      "symbol": "601857",
+      "name": "中国石油",
+      "displayName": "中国石油",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "油气开采",
+          "plate_name": "油气开采",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国石油",
+          "plate_name": "A+H映射：中国石油",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601899": {
+      "code": "601899",
+      "symbol": "601899",
+      "name": "紫金矿业",
+      "displayName": "紫金矿业",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "黄金",
+          "plate_name": "黄金",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铜",
+          "plate_name": "铜",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：紫金矿业",
+          "plate_name": "A+H映射：紫金矿业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601919": {
+      "code": "601919",
+      "symbol": "601919",
+      "name": "中远海控",
+      "displayName": "中远海控",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "航运物流",
+          "plate_name": "航运物流",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集运",
+          "plate_name": "集运",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中远海控",
+          "plate_name": "A+H映射：中远海控",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601939": {
+      "code": "601939",
+      "symbol": "601939",
+      "name": "建设银行",
+      "displayName": "建设银行",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "银行",
+          "plate_name": "银行",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "国有大行",
+          "plate_name": "国有大行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：建设银行",
+          "plate_name": "A+H映射：建设银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601991": {
+      "code": "601991",
+      "symbol": "601991",
+      "name": "大唐发电",
+      "displayName": "大唐发电",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电力",
+          "plate_name": "电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "火电",
+          "plate_name": "火电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：大唐发电",
+          "plate_name": "A+H映射：大唐发电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "601995": {
+      "code": "601995",
+      "symbol": "601995",
+      "name": "中金公司",
+      "displayName": "中金公司",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.818Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "投行",
+          "plate_name": "投行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中金公司",
+          "plate_name": "A+H映射：中金公司",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "603259": {
+      "code": "603259",
+      "symbol": "603259",
+      "name": "药明康德",
+      "displayName": "药明康德",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：药明康德",
+          "plate_name": "A+H映射：药明康德",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "603993": {
+      "code": "603993",
+      "symbol": "603993",
+      "name": "洛阳钼业",
+      "displayName": "洛阳钼业",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铜",
+          "plate_name": "铜",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "钴",
+          "plate_name": "钴",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：洛阳钼业",
+          "plate_name": "A+H映射：洛阳钼业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "688111": {
+      "code": "688111",
+      "symbol": "688111",
+      "name": "金山办公",
+      "displayName": "金山办公",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "688235": {
+      "code": "688235",
+      "symbol": "688235",
+      "name": "百济神州",
+      "displayName": "百济神州",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "生物医药",
+          "plate_name": "生物医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：百济神州",
+          "plate_name": "A+H映射：百济神州",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "688347": {
+      "code": "688347",
+      "symbol": "688347",
+      "name": "华虹公司",
+      "displayName": "华虹公司",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "半导体基础设施",
+          "plate_name": "半导体基础设施",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "688385": {
+      "code": "688385",
+      "symbol": "688385",
+      "name": "复旦微电",
+      "displayName": "复旦微电",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "芯片设计",
+          "plate_name": "芯片设计",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集成电路",
+          "plate_name": "集成电路",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：上海复旦",
+          "plate_name": "A+H映射：上海复旦",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "半导体基础设施",
+          "plate_name": "半导体基础设施",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "688981": {
+      "code": "688981",
+      "symbol": "688981",
+      "name": "中芯国际",
+      "displayName": "中芯国际",
+      "market": "SH",
+      "exchange": "SH",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "半导体",
+          "plate_name": "半导体",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "芯片",
+          "plate_name": "芯片",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "晶圆代工",
+          "plate_name": "晶圆代工",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集成电路",
+          "plate_name": "集成电路",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "半导体基础设施",
+          "plate_name": "半导体基础设施",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00700": {
+      "code": "HK:00700",
+      "symbol": "HK:00700",
+      "name": "腾讯控股（HK）",
+      "displayName": "腾讯控股（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "游戏",
+          "plate_name": "游戏",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "内容平台",
+          "plate_name": "内容平台",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:09988": {
+      "code": "HK:09988",
+      "symbol": "HK:09988",
+      "name": "阿里巴巴-W（HK）",
+      "displayName": "阿里巴巴-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "电商平台",
+          "plate_name": "电商平台",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "本地生活",
+          "plate_name": "本地生活",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "供应链物流",
+          "plate_name": "供应链物流",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:03690": {
+      "code": "HK:03690",
+      "symbol": "HK:03690",
+      "name": "美团-W（HK）",
+      "displayName": "美团-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:18:12.837Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "本地生活平台",
+          "plate_name": "本地生活平台",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "即时零售",
+          "plate_name": "即时零售",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "电商平台",
+          "plate_name": "电商平台",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "本地生活",
+          "plate_name": "本地生活",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "供应链物流",
+          "plate_name": "供应链物流",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:01810": {
+      "code": "HK:01810",
+      "symbol": "HK:01810",
+      "name": "小米集团-W（HK）",
+      "displayName": "小米集团-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费电子",
+          "plate_name": "消费电子",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "物联网",
+          "plate_name": "物联网",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "自动驾驶",
+          "plate_name": "自动驾驶",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:09618": {
+      "code": "HK:09618",
+      "symbol": "HK:09618",
+      "name": "京东集团-SW（HK）",
+      "displayName": "京东集团-SW（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电商物流",
+          "plate_name": "电商物流",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "电商平台",
+          "plate_name": "电商平台",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "物流",
+          "plate_name": "物流",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "本地生活",
+          "plate_name": "本地生活",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "供应链物流",
+          "plate_name": "供应链物流",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:01024": {
+      "code": "HK:01024",
+      "symbol": "HK:01024",
+      "name": "快手-W（HK）",
+      "displayName": "快手-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:18:12.838Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "内容平台",
+          "plate_name": "内容平台",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "直播电商",
+          "plate_name": "直播电商",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "游戏",
+          "plate_name": "游戏",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "电商平台",
+          "plate_name": "电商平台",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:01211": {
+      "code": "HK:01211",
+      "symbol": "HK:01211",
+      "name": "比亚迪股份（HK）",
+      "displayName": "比亚迪股份（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "002594": {
+      "code": "002594",
+      "symbol": "002594",
+      "name": "比亚迪",
+      "displayName": "比亚迪",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "自动驾驶",
+          "plate_name": "自动驾驶",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:09866": {
+      "code": "HK:09866",
+      "symbol": "HK:09866",
+      "name": "蔚来-SW（HK）",
+      "displayName": "蔚来-SW（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能驾驶",
+          "plate_name": "智能驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "自动驾驶",
+          "plate_name": "自动驾驶",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:02015": {
+      "code": "HK:02015",
+      "symbol": "HK:02015",
+      "name": "理想汽车-W（HK）",
+      "displayName": "理想汽车-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能驾驶",
+          "plate_name": "智能驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "自动驾驶",
+          "plate_name": "自动驾驶",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:09868": {
+      "code": "HK:09868",
+      "symbol": "HK:09868",
+      "name": "小鹏汽车-W（HK）",
+      "displayName": "小鹏汽车-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能驾驶",
+          "plate_name": "智能驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "自动驾驶",
+          "plate_name": "自动驾驶",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00981": {
+      "code": "HK:00981",
+      "symbol": "HK:00981",
+      "name": "中芯国际（HK）",
+      "displayName": "中芯国际（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "半导体",
+          "plate_name": "半导体",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "芯片",
+          "plate_name": "芯片",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "晶圆代工",
+          "plate_name": "晶圆代工",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集成电路",
+          "plate_name": "集成电路",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "半导体基础设施",
+          "plate_name": "半导体基础设施",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:01347": {
+      "code": "HK:01347",
+      "symbol": "HK:01347",
+      "name": "华虹半导体（HK）",
+      "displayName": "华虹半导体（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "半导体",
+          "plate_name": "半导体",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "芯片",
+          "plate_name": "芯片",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "晶圆代工",
+          "plate_name": "晶圆代工",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集成电路",
+          "plate_name": "集成电路",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "半导体基础设施",
+          "plate_name": "半导体基础设施",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00388": {
+      "code": "HK:00388",
+      "symbol": "HK:00388",
+      "name": "香港交易所",
+      "displayName": "香港交易所（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.736Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "交易所",
+          "plate_name": "交易所",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "金融基础设施",
+          "plate_name": "金融基础设施",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "资本市场",
+          "plate_name": "资本市场",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02318": {
+      "code": "HK:02318",
+      "symbol": "HK:02318",
+      "name": "中国平安",
+      "displayName": "中国平安（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "保险",
+          "plate_name": "保险",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "金融科技",
+          "plate_name": "金融科技",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国平安",
+          "plate_name": "A+H映射：中国平安",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03968": {
+      "code": "HK:03968",
+      "symbol": "HK:03968",
+      "name": "招商银行",
+      "displayName": "招商银行（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "银行",
+          "plate_name": "银行",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "零售银行",
+          "plate_name": "零售银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：招商银行",
+          "plate_name": "A+H映射：招商银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01398": {
+      "code": "HK:01398",
+      "symbol": "HK:01398",
+      "name": "工商银行",
+      "displayName": "工商银行（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "银行",
+          "plate_name": "银行",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "国有大行",
+          "plate_name": "国有大行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：工商银行",
+          "plate_name": "A+H映射：工商银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00939": {
+      "code": "HK:00939",
+      "symbol": "HK:00939",
+      "name": "建设银行",
+      "displayName": "建设银行（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "银行",
+          "plate_name": "银行",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "国有大行",
+          "plate_name": "国有大行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：建设银行",
+          "plate_name": "A+H映射：建设银行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02628": {
+      "code": "HK:02628",
+      "symbol": "HK:02628",
+      "name": "中国人寿",
+      "displayName": "中国人寿（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "保险",
+          "plate_name": "保险",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国人寿",
+          "plate_name": "A+H映射：中国人寿",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02269": {
+      "code": "HK:02269",
+      "symbol": "HK:02269",
+      "name": "药明生物",
+      "displayName": "药明生物（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "生物医药",
+          "plate_name": "生物医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02359": {
+      "code": "HK:02359",
+      "symbol": "HK:02359",
+      "name": "药明康德",
+      "displayName": "药明康德（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：药明康德",
+          "plate_name": "A+H映射：药明康德",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06160": {
+      "code": "HK:06160",
+      "symbol": "HK:06160",
+      "name": "百济神州",
+      "displayName": "百济神州（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "生物医药",
+          "plate_name": "生物医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：百济神州",
+          "plate_name": "A+H映射：百济神州",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01801": {
+      "code": "HK:01801",
+      "symbol": "HK:01801",
+      "name": "信达生物",
+      "displayName": "信达生物（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "生物医药",
+          "plate_name": "生物医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "PD-1",
+          "plate_name": "PD-1",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09926": {
+      "code": "HK:09926",
+      "symbol": "HK:09926",
+      "name": "康方生物",
+      "displayName": "康方生物（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "生物医药",
+          "plate_name": "生物医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "双抗",
+          "plate_name": "双抗",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00728": {
+      "code": "HK:00728",
+      "symbol": "HK:00728",
+      "name": "中国电信（HK）",
+      "displayName": "中国电信（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信运营商",
+          "plate_name": "通信运营商",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国电信",
+          "plate_name": "A+H映射：中国电信",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00941": {
+      "code": "HK:00941",
+      "symbol": "HK:00941",
+      "name": "中国移动（HK）",
+      "displayName": "中国移动（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信运营商",
+          "plate_name": "通信运营商",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国移动",
+          "plate_name": "A+H映射：中国移动",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00762": {
+      "code": "HK:00762",
+      "symbol": "HK:00762",
+      "name": "中国联通（HK）",
+      "displayName": "中国联通（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信运营商",
+          "plate_name": "通信运营商",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国联通",
+          "plate_name": "A+H映射：中国联通",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00883": {
+      "code": "HK:00883",
+      "symbol": "HK:00883",
+      "name": "中国海洋石油",
+      "displayName": "中国海洋石油（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "油气开采",
+          "plate_name": "油气开采",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国海油",
+          "plate_name": "A+H映射：中国海油",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00857": {
+      "code": "HK:00857",
+      "symbol": "HK:00857",
+      "name": "中国石油股份",
+      "displayName": "中国石油股份（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "油气开采",
+          "plate_name": "油气开采",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国石油",
+          "plate_name": "A+H映射：中国石油",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00386": {
+      "code": "HK:00386",
+      "symbol": "HK:00386",
+      "name": "中国石油化工股份",
+      "displayName": "中国石油化工股份（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "炼化",
+          "plate_name": "炼化",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国石化",
+          "plate_name": "A+H映射：中国石化",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01109": {
+      "code": "HK:01109",
+      "symbol": "HK:01109",
+      "name": "华润置地",
+      "displayName": "华润置地（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "地产",
+          "plate_name": "地产",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "地产开发",
+          "plate_name": "地产开发",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企地产",
+          "plate_name": "央企地产",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00688": {
+      "code": "HK:00688",
+      "symbol": "HK:00688",
+      "name": "中国海外发展",
+      "displayName": "中国海外发展（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "地产",
+          "plate_name": "地产",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "地产开发",
+          "plate_name": "地产开发",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企地产",
+          "plate_name": "央企地产",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00960": {
+      "code": "HK:00960",
+      "symbol": "HK:00960",
+      "name": "龙湖集团",
+      "displayName": "龙湖集团（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "地产",
+          "plate_name": "地产",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "地产开发",
+          "plate_name": "地产开发",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "物业",
+          "plate_name": "物业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02202": {
+      "code": "HK:02202",
+      "symbol": "HK:02202",
+      "name": "万科企业",
+      "displayName": "万科企业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "地产",
+          "plate_name": "地产",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "地产开发",
+          "plate_name": "地产开发",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：万科",
+          "plate_name": "A+H映射：万科",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "000002": {
+      "code": "000002",
+      "symbol": "000002",
+      "name": "万科A",
+      "displayName": "万科A",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "地产",
+          "plate_name": "地产",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "地产开发",
+          "plate_name": "地产开发",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：万科",
+          "plate_name": "A+H映射：万科",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00291": {
+      "code": "HK:00291",
+      "symbol": "HK:00291",
+      "name": "华润啤酒",
+      "displayName": "华润啤酒（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费",
+          "plate_name": "消费",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "啤酒",
+          "plate_name": "啤酒",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02319": {
+      "code": "HK:02319",
+      "symbol": "HK:02319",
+      "name": "蒙牛乳业",
+      "displayName": "蒙牛乳业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费",
+          "plate_name": "消费",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "乳制品",
+          "plate_name": "乳制品",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09987": {
+      "code": "HK:09987",
+      "symbol": "HK:09987",
+      "name": "百胜中国",
+      "displayName": "百胜中国（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费",
+          "plate_name": "消费",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "餐饮",
+          "plate_name": "餐饮",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06186": {
+      "code": "HK:06186",
+      "symbol": "HK:06186",
+      "name": "中国飞鹤",
+      "displayName": "中国飞鹤（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费",
+          "plate_name": "消费",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "乳制品",
+          "plate_name": "乳制品",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "母婴消费",
+          "plate_name": "母婴消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06618": {
+      "code": "HK:06618",
+      "symbol": "HK:06618",
+      "name": "京东健康",
+      "displayName": "京东健康（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "互联网医疗",
+          "plate_name": "互联网医疗",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "医疗服务",
+          "plate_name": "医疗服务",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "平台经济",
+          "plate_name": "平台经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09961": {
+      "code": "HK:09961",
+      "symbol": "HK:09961",
+      "name": "携程集团-S",
+      "displayName": "携程集团-S（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:12:48.743Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "在线旅游",
+          "plate_name": "在线旅游",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "旅游消费",
+          "plate_name": "旅游消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "平台经济",
+          "plate_name": "平台经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06030": {
+      "code": "HK:06030",
+      "symbol": "HK:06030",
+      "name": "中信证券",
+      "displayName": "中信证券（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.817Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "资本市场",
+          "plate_name": "资本市场",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中信证券",
+          "plate_name": "A+H映射：中信证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03908": {
+      "code": "HK:03908",
+      "symbol": "HK:03908",
+      "name": "中金公司",
+      "displayName": "中金公司（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.818Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "投行",
+          "plate_name": "投行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中金公司",
+          "plate_name": "A+H映射：中金公司",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06066": {
+      "code": "HK:06066",
+      "symbol": "HK:06066",
+      "name": "中信建投证券",
+      "displayName": "中信建投证券（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "投行",
+          "plate_name": "投行",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中信建投",
+          "plate_name": "A+H映射：中信建投",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06886": {
+      "code": "HK:06886",
+      "symbol": "HK:06886",
+      "name": "华泰证券",
+      "displayName": "华泰证券（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "财富管理",
+          "plate_name": "财富管理",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：华泰证券",
+          "plate_name": "A+H映射：华泰证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01776": {
+      "code": "HK:01776",
+      "symbol": "HK:01776",
+      "name": "广发证券",
+      "displayName": "广发证券（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "财富管理",
+          "plate_name": "财富管理",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：广发证券",
+          "plate_name": "A+H映射：广发证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "000776": {
+      "code": "000776",
+      "symbol": "000776",
+      "name": "广发证券",
+      "displayName": "广发证券",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "财富管理",
+          "plate_name": "财富管理",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：广发证券",
+          "plate_name": "A+H映射：广发证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06837": {
+      "code": "HK:06837",
+      "symbol": "HK:06837",
+      "name": "海通证券",
+      "displayName": "海通证券（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "证券",
+          "plate_name": "证券",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "券商金融",
+          "plate_name": "券商金融",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "资本市场",
+          "plate_name": "资本市场",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：海通证券",
+          "plate_name": "A+H映射：海通证券",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00175": {
+      "code": "HK:00175",
+      "symbol": "HK:00175",
+      "name": "吉利汽车",
+      "displayName": "吉利汽车（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能驾驶",
+          "plate_name": "智能驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02333": {
+      "code": "HK:02333",
+      "symbol": "HK:02333",
+      "name": "长城汽车",
+      "displayName": "长城汽车（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能驾驶",
+          "plate_name": "智能驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：长城汽车",
+          "plate_name": "A+H映射：长城汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02238": {
+      "code": "HK:02238",
+      "symbol": "HK:02238",
+      "name": "广汽集团",
+      "displayName": "广汽集团（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "汽车整车",
+          "plate_name": "汽车整车",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源汽车",
+          "plate_name": "新能源汽车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：广汽集团",
+          "plate_name": "A+H映射：广汽集团",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01772": {
+      "code": "HK:01772",
+      "symbol": "HK:01772",
+      "name": "赣锋锂业",
+      "displayName": "赣锋锂业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "锂资源",
+          "plate_name": "锂资源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：赣锋锂业",
+          "plate_name": "A+H映射：赣锋锂业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "002460": {
+      "code": "002460",
+      "symbol": "002460",
+      "name": "赣锋锂业",
+      "displayName": "赣锋锂业",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "锂资源",
+          "plate_name": "锂资源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：赣锋锂业",
+          "plate_name": "A+H映射：赣锋锂业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09696": {
+      "code": "HK:09696",
+      "symbol": "HK:09696",
+      "name": "天齐锂业",
+      "displayName": "天齐锂业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "锂资源",
+          "plate_name": "锂资源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：天齐锂业",
+          "plate_name": "A+H映射：天齐锂业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "002466": {
+      "code": "002466",
+      "symbol": "002466",
+      "name": "天齐锂业",
+      "displayName": "天齐锂业",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "锂资源",
+          "plate_name": "锂资源",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "锂电池",
+          "plate_name": "锂电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "动力电池",
+          "plate_name": "动力电池",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：天齐锂业",
+          "plate_name": "A+H映射：天齐锂业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00390": {
+      "code": "HK:00390",
+      "symbol": "HK:00390",
+      "name": "中国中铁",
+      "displayName": "中国中铁（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "中字头",
+          "plate_name": "中字头",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国中铁",
+          "plate_name": "A+H映射：中国中铁",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01186": {
+      "code": "HK:01186",
+      "symbol": "HK:01186",
+      "name": "中国铁建",
+      "displayName": "中国铁建（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "中字头",
+          "plate_name": "中字头",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国铁建",
+          "plate_name": "A+H映射：中国铁建",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01800": {
+      "code": "HK:01800",
+      "symbol": "HK:01800",
+      "name": "中国交通建设",
+      "displayName": "中国交通建设（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "中字头",
+          "plate_name": "中字头",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国交建",
+          "plate_name": "A+H映射：中国交建",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01766": {
+      "code": "HK:01766",
+      "symbol": "HK:01766",
+      "name": "中国中车",
+      "displayName": "中国中车（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "轨交装备",
+          "plate_name": "轨交装备",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "高端装备",
+          "plate_name": "高端装备",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国中车",
+          "plate_name": "A+H映射：中国中车",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03311": {
+      "code": "HK:03311",
+      "symbol": "HK:03311",
+      "name": "中国建筑国际",
+      "displayName": "中国建筑国际（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "基建工程",
+          "plate_name": "基建工程",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企建筑",
+          "plate_name": "央企建筑",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00836": {
+      "code": "HK:00836",
+      "symbol": "HK:00836",
+      "name": "华润电力",
+      "displayName": "华润电力（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电力",
+          "plate_name": "电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "公用事业",
+          "plate_name": "公用事业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00902": {
+      "code": "HK:00902",
+      "symbol": "HK:00902",
+      "name": "华能国际电力股份",
+      "displayName": "华能国际电力股份（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电力",
+          "plate_name": "电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "火电",
+          "plate_name": "火电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：华能国际",
+          "plate_name": "A+H映射：华能国际",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00991": {
+      "code": "HK:00991",
+      "symbol": "HK:00991",
+      "name": "大唐发电",
+      "displayName": "大唐发电（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电力",
+          "plate_name": "电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "火电",
+          "plate_name": "火电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：大唐发电",
+          "plate_name": "A+H映射：大唐发电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02380": {
+      "code": "HK:02380",
+      "symbol": "HK:02380",
+      "name": "中国电力",
+      "displayName": "中国电力（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电力",
+          "plate_name": "电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "公用事业",
+          "plate_name": "公用事业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00916": {
+      "code": "HK:00916",
+      "symbol": "HK:00916",
+      "name": "龙源电力",
+      "displayName": "龙源电力（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "风电",
+          "plate_name": "风电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：龙源电力",
+          "plate_name": "A+H映射：龙源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "001289": {
+      "code": "001289",
+      "symbol": "001289",
+      "name": "龙源电力",
+      "displayName": "龙源电力",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "新能源电力",
+          "plate_name": "新能源电力",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "风电",
+          "plate_name": "风电",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：龙源电力",
+          "plate_name": "A+H映射：龙源电力",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01088": {
+      "code": "HK:01088",
+      "symbol": "HK:01088",
+      "name": "中国神华",
+      "displayName": "中国神华（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "煤炭",
+          "plate_name": "煤炭",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国神华",
+          "plate_name": "A+H映射：中国神华",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01171": {
+      "code": "HK:01171",
+      "symbol": "HK:01171",
+      "name": "兖矿能源",
+      "displayName": "兖矿能源（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "煤炭",
+          "plate_name": "煤炭",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "能源",
+          "plate_name": "能源",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：兖矿能源",
+          "plate_name": "A+H映射：兖矿能源",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02899": {
+      "code": "HK:02899",
+      "symbol": "HK:02899",
+      "name": "紫金矿业",
+      "displayName": "紫金矿业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "黄金",
+          "plate_name": "黄金",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铜",
+          "plate_name": "铜",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：紫金矿业",
+          "plate_name": "A+H映射：紫金矿业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03993": {
+      "code": "HK:03993",
+      "symbol": "HK:03993",
+      "name": "洛阳钼业",
+      "displayName": "洛阳钼业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铜",
+          "plate_name": "铜",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "钴",
+          "plate_name": "钴",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：洛阳钼业",
+          "plate_name": "A+H映射：洛阳钼业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00358": {
+      "code": "HK:00358",
+      "symbol": "HK:00358",
+      "name": "江西铜业股份",
+      "displayName": "江西铜业股份（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铜",
+          "plate_name": "铜",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：江西铜业",
+          "plate_name": "A+H映射：江西铜业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02600": {
+      "code": "HK:02600",
+      "symbol": "HK:02600",
+      "name": "中国铝业",
+      "displayName": "中国铝业（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "铝",
+          "plate_name": "铝",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中国铝业",
+          "plate_name": "A+H映射：中国铝业",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01787": {
+      "code": "HK:01787",
+      "symbol": "HK:01787",
+      "name": "山东黄金",
+      "displayName": "山东黄金（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "黄金",
+          "plate_name": "黄金",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "有色金属",
+          "plate_name": "有色金属",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：山东黄金",
+          "plate_name": "A+H映射：山东黄金",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02196": {
+      "code": "HK:02196",
+      "symbol": "HK:02196",
+      "name": "复星医药",
+      "displayName": "复星医药（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药",
+          "plate_name": "医药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "医疗服务",
+          "plate_name": "医疗服务",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：复星医药",
+          "plate_name": "A+H映射：复星医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01093": {
+      "code": "HK:01093",
+      "symbol": "HK:01093",
+      "name": "石药集团",
+      "displayName": "石药集团（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药",
+          "plate_name": "医药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "仿制药",
+          "plate_name": "仿制药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01177": {
+      "code": "HK:01177",
+      "symbol": "HK:01177",
+      "name": "中国生物制药",
+      "displayName": "中国生物制药（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药",
+          "plate_name": "医药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "仿制药",
+          "plate_name": "仿制药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03692": {
+      "code": "HK:03692",
+      "symbol": "HK:03692",
+      "name": "翰森制药",
+      "displayName": "翰森制药（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药",
+          "plate_name": "医药",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "创新药",
+          "plate_name": "创新药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03759": {
+      "code": "HK:03759",
+      "symbol": "HK:03759",
+      "name": "康龙化成",
+      "displayName": "康龙化成（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：康龙化成",
+          "plate_name": "A+H映射：康龙化成",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:03347": {
+      "code": "HK:03347",
+      "symbol": "HK:03347",
+      "name": "泰格医药",
+      "displayName": "泰格医药（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "医药外包",
+          "plate_name": "医药外包",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "CXO",
+          "plate_name": "CXO",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：泰格医药",
+          "plate_name": "A+H映射：泰格医药",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02020": {
+      "code": "HK:02020",
+      "symbol": "HK:02020",
+      "name": "安踏体育",
+      "displayName": "安踏体育（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费品牌",
+          "plate_name": "消费品牌",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "运动服饰",
+          "plate_name": "运动服饰",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02331": {
+      "code": "HK:02331",
+      "symbol": "HK:02331",
+      "name": "李宁",
+      "displayName": "李宁（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费品牌",
+          "plate_name": "消费品牌",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "运动服饰",
+          "plate_name": "运动服饰",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02313": {
+      "code": "HK:02313",
+      "symbol": "HK:02313",
+      "name": "申洲国际",
+      "displayName": "申洲国际（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "纺织服装",
+          "plate_name": "纺织服装",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "运动服饰",
+          "plate_name": "运动服饰",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "供应链",
+          "plate_name": "供应链",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06690": {
+      "code": "HK:06690",
+      "symbol": "HK:06690",
+      "name": "海尔智家",
+      "displayName": "海尔智家（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "家电",
+          "plate_name": "家电",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能家居",
+          "plate_name": "智能家居",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：海尔智家",
+          "plate_name": "A+H映射：海尔智家",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09633": {
+      "code": "HK:09633",
+      "symbol": "HK:09633",
+      "name": "农夫山泉",
+      "displayName": "农夫山泉（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "饮料",
+          "plate_name": "饮料",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:06862": {
+      "code": "HK:06862",
+      "symbol": "HK:06862",
+      "name": "海底捞",
+      "displayName": "海底捞（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "餐饮",
+          "plate_name": "餐饮",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09922": {
+      "code": "HK:09922",
+      "symbol": "HK:09922",
+      "name": "九毛九",
+      "displayName": "九毛九（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "餐饮",
+          "plate_name": "餐饮",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "大众消费",
+          "plate_name": "大众消费",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00316": {
+      "code": "HK:00316",
+      "symbol": "HK:00316",
+      "name": "东方海外国际",
+      "displayName": "东方海外国际（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "航运物流",
+          "plate_name": "航运物流",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集运",
+          "plate_name": "集运",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "出口链",
+          "plate_name": "出口链",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01919": {
+      "code": "HK:01919",
+      "symbol": "HK:01919",
+      "name": "中远海控",
+      "displayName": "中远海控（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "航运物流",
+          "plate_name": "航运物流",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集运",
+          "plate_name": "集运",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中远海控",
+          "plate_name": "A+H映射：中远海控",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01138": {
+      "code": "HK:01138",
+      "symbol": "HK:01138",
+      "name": "中远海能",
+      "displayName": "中远海能（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "航运物流",
+          "plate_name": "航运物流",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "油运",
+          "plate_name": "油运",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中远海能",
+          "plate_name": "A+H映射：中远海能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00144": {
+      "code": "HK:00144",
+      "symbol": "HK:00144",
+      "name": "招商局港口",
+      "displayName": "招商局港口（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "港口",
+          "plate_name": "港口",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "航运物流",
+          "plate_name": "航运物流",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "央企",
+          "plate_name": "央企",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00992": {
+      "code": "HK:00992",
+      "symbol": "HK:00992",
+      "name": "联想集团",
+      "displayName": "联想集团（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费电子",
+          "plate_name": "消费电子",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "AI PC",
+          "plate_name": "AI PC",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "服务器",
+          "plate_name": "服务器",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字经济",
+          "plate_name": "数字经济",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:02382": {
+      "code": "HK:02382",
+      "symbol": "HK:02382",
+      "name": "舜宇光学科技",
+      "displayName": "舜宇光学科技（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费电子",
+          "plate_name": "消费电子",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "光学",
+          "plate_name": "光学",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "汽车电子",
+          "plate_name": "汽车电子",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01478": {
+      "code": "HK:01478",
+      "symbol": "HK:01478",
+      "name": "丘钛科技",
+      "displayName": "丘钛科技（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "消费电子",
+          "plate_name": "消费电子",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "摄像头模组",
+          "plate_name": "摄像头模组",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00522": {
+      "code": "HK:00522",
+      "symbol": "HK:00522",
+      "name": "ASMPT",
+      "displayName": "ASMPT（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T17:27:29.819Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "半导体设备",
+          "plate_name": "半导体设备",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "先进封装",
+          "plate_name": "先进封装",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "半导体",
+          "plate_name": "半导体",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:01385": {
+      "code": "HK:01385",
+      "symbol": "HK:01385",
+      "name": "上海复旦（HK）",
+      "displayName": "上海复旦（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "芯片设计",
+          "plate_name": "芯片设计",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "集成电路",
+          "plate_name": "集成电路",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：上海复旦",
+          "plate_name": "A+H映射：上海复旦",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "半导体基础设施",
+          "plate_name": "半导体基础设施",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00763": {
+      "code": "HK:00763",
+      "symbol": "HK:00763",
+      "name": "中兴通讯（HK）",
+      "displayName": "中兴通讯（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信设备",
+          "plate_name": "通信设备",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "5G",
+          "plate_name": "5G",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中兴通讯",
+          "plate_name": "A+H映射：中兴通讯",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "000063": {
+      "code": "000063",
+      "symbol": "000063",
+      "name": "中兴通讯",
+      "displayName": "中兴通讯",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "通信设备",
+          "plate_name": "通信设备",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "5G",
+          "plate_name": "5G",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "算力网络",
+          "plate_name": "算力网络",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "A+H映射：中兴通讯",
+          "plate_name": "A+H映射：中兴通讯",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:09888": {
+      "code": "HK:09888",
+      "symbol": "HK:09888",
+      "name": "百度集团-SW（HK）",
+      "displayName": "百度集团-SW（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "自动驾驶",
+          "plate_name": "自动驾驶",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "内容平台",
+          "plate_name": "内容平台",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:09999": {
+      "code": "HK:09999",
+      "symbol": "HK:09999",
+      "name": "网易-S（HK）",
+      "displayName": "网易-S（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "游戏",
+          "plate_name": "游戏",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字内容",
+          "plate_name": "数字内容",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "内容平台",
+          "plate_name": "内容平台",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:09626": {
+      "code": "HK:09626",
+      "symbol": "HK:09626",
+      "name": "哔哩哔哩-W（HK）",
+      "displayName": "哔哩哔哩-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:18:12.839Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "内容平台",
+          "plate_name": "内容平台",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字内容",
+          "plate_name": "数字内容",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "社区平台",
+          "plate_name": "社区平台",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "互联网平台",
+          "plate_name": "互联网平台",
+          "plate_type": "行业",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "游戏",
+          "plate_name": "游戏",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "数字广告",
+          "plate_name": "数字广告",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00772": {
+      "code": "HK:00772",
+      "symbol": "HK:00772",
+      "name": "阅文集团",
+      "displayName": "阅文集团（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "updatedAt": "2026-06-10T18:18:12.839Z",
+      "source": "manual_cross_market_seed",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "内容平台",
+          "plate_name": "内容平台",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "数字内容",
+          "plate_name": "数字内容",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        },
+        {
+          "plate_code": "IP",
+          "plate_name": "IP",
+          "plate_type": "概念",
+          "source": "跨市场seed"
+        }
+      ]
+    },
+    "HK:00020": {
+      "code": "HK:00020",
+      "symbol": "HK:00020",
+      "name": "商汤-W（HK）",
+      "displayName": "商汤-W（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:03896": {
+      "code": "HK:03896",
+      "symbol": "HK:03896",
+      "name": "金山云（HK）",
+      "displayName": "金山云（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "002230": {
+      "code": "002230",
+      "symbol": "002230",
+      "name": "科大讯飞",
+      "displayName": "科大讯飞",
+      "market": "SZ",
+      "exchange": "SZ",
+      "currency": "CNY",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "人工智能",
+          "plate_name": "人工智能",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:03888": {
+      "code": "HK:03888",
+      "symbol": "HK:03888",
+      "name": "金山软件（HK）",
+      "displayName": "金山软件（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.357Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "云计算",
+          "plate_name": "云计算",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:02618": {
+      "code": "HK:02618",
+      "symbol": "HK:02618",
+      "name": "京东物流（HK）",
+      "displayName": "京东物流（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "电商平台",
+          "plate_name": "电商平台",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        },
+        {
+          "plate_code": "供应链物流",
+          "plate_name": "供应链物流",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    },
+    "HK:00285": {
+      "code": "HK:00285",
+      "symbol": "HK:00285",
+      "name": "比亚迪电子（HK）",
+      "displayName": "比亚迪电子（HK）",
+      "market": "HK",
+      "exchange": "HKEX",
+      "currency": "HKD",
+      "status": "DONE",
+      "source": "terminal_platform_ecosystem_seed",
+      "updatedAt": "2026-06-10T18:15:44.358Z",
+      "conceptThs": [],
+      "plateEast": [
+        {
+          "plate_code": "智能终端",
+          "plate_name": "智能终端",
+          "plate_type": "概念",
+          "source": "terminal_platform_ecosystem_seed"
+        }
+      ]
+    }
+  }
+}

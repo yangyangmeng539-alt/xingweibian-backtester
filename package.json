@@ -1,0 +1,79 @@
+{
+  "name": "xingweibian-backtester",
+  "version": "0.1.0",
+  "private": true,
+  "description": "形位变股票结构观察器 - 股票结构观察、历史路径回看、节点预判、关系图与产业链联动分析",
+  "main": "main.js",
+  "type": "commonjs",
+  "productName": "形位变股票结构观察器",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis",
+    "pack": "electron-builder --dir",
+    "smoke": "node scripts/smoke-test.js",
+    "inspect:universe": "node scripts/inspect-universe.js",
+    "sync:full-a": "node scripts/sync-full-a-share.js",
+    "python:bootstrap": "node scripts/bootstrap-python-runtime.js",
+    "python:check": "node scripts/check-python-runtime.js",
+    "check": "node --check main.js && node --check preload.js && node --check renderer/renderer.js && node --check src/core/signalEngine.js && node --check src/core/positionEngine.js && node --check src/core/changeEngine.js && node --check src/core/xingweibianV2Engine.js && node --check src/core/feeEngine.js && node --check src/core/tradeSimulator.js && node --check src/core/metricsEngine.js && node --check src/core/backtestEngine.js && node --check src/core/xwbNodePredictionEngine.js && node --check src/core/writeLock.js && node --check src/core/sqliteDiskCacheBridge.js && node --check src/core/localCache.js && node --check src/data/cacheIndexService.js && node --check src/data/aShareDataService.js && node --check src/data/dataSourceRegistry.js && node --check src/data/stockUniverseService.js && node --check src/data/fullMarketSyncService.js && node --check src/marketGraph/marketGraphBuilder.js && node --check src/runtime/pythonResolver.js && node --check src/workers/pythonWorker.js && node --check scripts/smoke-test.js && node --check scripts/sync-full-a-share.js && node --check scripts/sync-failed-a-share.js && node --check scripts/repair-sync-state.js && node --check scripts/build-cache-index.js && node --check scripts/inspect-cache-index.js && node --check scripts/inspect-result.js && node --check scripts/inspect-universe.js && node --check scripts/bootstrap-python-runtime.js && node --check scripts/check-python-runtime.js && node --check scripts/fetch-stock-relation-raw.js"
+  },
+  "dependencies": {
+    "sql.js": "latest"
+  },
+  "devDependencies": {
+    "electron": "31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.xingweibian.stock.structure.observer",
+    "productName": "形位变股票结构观察器",
+    "asar": false,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json",
+      "32.ico",
+      "icon2.ico",
+      "renderer/**/*",
+      "src/**/*",
+      "scripts/**/*",
+      "runtime/**/*",
+      "data/market-graph/*.seed.json",
+      "data/universe/*.json",
+      "!node_modules/.cache/**/*",
+      "!data/cache/**/*",
+      "!data/sync/**/*",
+      "!data/market-graph/raw/**/*",
+      "!data/market-graph/audit/**/*",
+      "!**/*.sqlite",
+      "!**/*.db",
+      "!**/*.log",
+      "!**/*.tmp",
+      "!**/*.zip",
+      "!**/*.7z",
+      "!**/*.rar"
+    ],
+    "win": {
+      "icon": "icon2.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "形位变股票结构观察器",
+      "artifactName": "形位变股票结构观察器-${version}-安装包.${ext}"
+    }
+  }
+}
